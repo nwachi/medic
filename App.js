@@ -7,8 +7,8 @@ import { Profile } from './infrastructure/screens/Profile';
 export default function App() {
 
   return (
-     <Profile/>
-   // <Service />
+     //<Profile/>
+    <Service />
 //    <NavigationContainer>
 //     <StackNavigation/>
 //  </NavigationContainer>
