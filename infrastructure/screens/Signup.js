@@ -128,9 +128,9 @@ export function Signup({navigation}) {
                            <View style={styles.textInline}>
                               <Text style={styles.ctaText}>Already have an account?</Text>
                               <TouchableOpacity 
-                              onPress={() =>navigation.navigate('Login')}
+                              onPress={() =>navigation.navigate('Home')}
                               >
-                                 <Text style={[styles.ctaText,{color:Theme.colors.ui.nurseGreen}
+                                 <Text style={[styles.ctaText,{color:Theme.colors.ui.nursePurple}
                                  ]}>Go to login</Text>
 
                               </TouchableOpacity>

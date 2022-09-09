@@ -64,6 +64,7 @@ export function Intro({navigation}) {
                      mode='outlined' 
                      color={Theme.colors.text.tertiary}
                     style={{paddingVertical:Theme.sizes[3]}}
+                    onPress={() => navigation.navigate('Profile')}
                     >Login</Button>
                 </View>
                 </View>

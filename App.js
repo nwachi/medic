@@ -2,15 +2,17 @@ import { StatusBar } from 'expo-status-bar';
 import {View,StyleSheet} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { StackNavigation } from './infrastructure/navigation/stackNav';
-import { Home } from './infrastructure/screens/Home';
-
+import { Service } from './infrastructure/screens/Service';
+import { Profile } from './infrastructure/screens/Profile';
 export default function App() {
 
   return (
-   // <NavigationContainer>
-    // <StackNavigation/>
-  //  </NavigationContainer>
- <Home/>
+     <Profile/>
+   // <Service />
+//    <NavigationContainer>
+//     <StackNavigation/>
+//  </NavigationContainer>
+
   );
 }
 
